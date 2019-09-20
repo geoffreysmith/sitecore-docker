@@ -33,7 +33,7 @@ ADD scripts /Scripts
 ENV IDENTITY_CERT_PATH "C:\\Files\\identity.pfx"
 ENV ROOT_CERT_PATH "C:\\Files\\root.pfx"
 
- #Instal donet core windows hosting
+ #Install donet core windows hosting
 RUN choco install -y --params="Quiet" --version 2.2.5 dotnetcore-windowshosting; 
 
  # Trust Self signed certificates & certificate

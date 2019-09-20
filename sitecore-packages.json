@@ -1,0 +1,14 @@
+{
+  "Sitecore 9.2.0 rev. 002893 (WDP XP1 packages).zip": {
+    "description": "Sitecore Experience Platform 9.2 Initial Release",
+    "url": "https://dev.sitecore.net/~/media/87332E19456741C696BAA67A2FC2DA54.ashx"
+  },
+  "Sitecore PowerShell Extensions-5.0.zip": {
+    "description": "Sitecore PowerShell Extensions 5.0 for 9.2",
+    "url": "https://marketplace.sitecore.net/services/~/download/E988B12D15D74CCA83ADBFD0CA56192E.ashx?data=Sitecore%20PowerShell%20Extensions-5.0&itemId=6aaea046-83af-4ef1-ab91-87f5f9c1aa57"
+  },
+  "Microsoft.Web.XmlTransform.dll": {
+    "description": "Microsoft.Web.XmlTransform.dll",
+    "url": "https://www.nuget.org/api/v2/package/XmlTransform.Tasks/1.0.27"
+  }
+}
