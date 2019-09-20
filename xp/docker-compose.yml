@@ -3,6 +3,8 @@ version: '2.4'
 services:
  identity:
   image: "${IMAGE_PREFIX}identity:${TAG}"
+    networks:
+    - exampleNetwork 
   isolation: process
   volumes:
     - .\license:C:\license

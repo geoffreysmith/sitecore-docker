@@ -3,9 +3,9 @@ build/obj
 cores
 data
 databases
-files
 logs
 tmp
+files
 *.tmp
 *.log
 example/xp/license

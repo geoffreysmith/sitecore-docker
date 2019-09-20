@@ -7,9 +7,9 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPref
 
 # Install JAVA
 ENV JAVA_HOME C:\\ojdkbuild
-ENV JAVA_VERSION 8u161
-ENV JAVA_OJDKBUILD_VERSION 1.8.0.161-1
-ENV JAVA_OJDKBUILD_ZIP java-1.8.0-openjdk-1.8.0.161-1.b14.ojdkbuild.windows.x86_64.zip
+ENV JAVA_VERSION 8u191
+ENV JAVA_OJDKBUILD_VERSION 1.8.0.191-1
+ENV JAVA_OJDKBUILD_ZIP java-1.8.0-openjdk-1.8.0.191-1.b12.ojdkbuild.windows.x86_64.zip
 
 RUN setx /M PATH ('{0}\bin;{1}' -f $env:JAVA_HOME, $env:PATH); `
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; `
